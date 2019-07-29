@@ -80,6 +80,17 @@
 </plugin>
  </plugins>
  </build>
+  
+  <settings>
+  <servers>
+    <server>
+      <id>nexus-snapshots</id>
+      <username>ethanadmin</username>
+      <password>dcd62e4e29103445</password>
+    </server>
+  </servers>
+</settings>
+  
   <distributionManagement>
     <snapshotRepository>
       <id>nexus-snapshots</id>
