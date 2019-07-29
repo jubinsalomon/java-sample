@@ -81,20 +81,12 @@
  </plugins>
  </build>
   
-  <settings>
-  <servers>
-    <server>
-      <id>nexus-snapshots</id>
-      <username>ethanadmin</username>
-      <password>dcd62e4e29103445</password>
-    </server>
-  </servers>
-</settings>
+  
   
   <distributionManagement>
     <snapshotRepository>
       <id>nexus-snapshots</id>
-      <url>https://abac5eeddade311e9aa110689bc5ece0-1320114688.eu-west-2.elb.amazonaws.com/nexus/repository/maven-releases/</url>
+      <url>https://ethanadmin:dcd62e4e29103445@abac5eeddade311e9aa110689bc5ece0-1320114688.eu-west-2.elb.amazonaws.com/nexus/repository/maven-releases/</url>
     </snapshotRepository>
   </distributionManagement>
   
